@@ -1,2 +1,2 @@
-# AuG-BERT
-Source code of "AuG-BERT: Augmented GRAPH-BERT for Graph Instance Modeling"
+# SEG-BERT
+Source code of "Segmented GRAPH-BERT for Graph Instance Modeling"
