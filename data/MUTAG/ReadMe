@@ -1,5 +1,8 @@
 Data Organization
 
-Line 1: # Graph Instances (e.g., 188, there will be 188 graph instances in this dataset)
-Line 2: Row#, GraphLabel (e.g., 23, 2, the first graph has 23 following rows, and its label is 2)
-Line 3: NodeID, FollowingNode#, FollowingNodeID1, FollowingNodeID2, ...
+Line 1: # Graph Instances (e.g., 188: there will be 188 graph instances in this dataset)
+Line 2: Row#, GraphLabel (e.g., 23, 2: the first graph has 23 following rows, and its label is 2)
+Line 3: NodeID, ConnectedNode#, ConnectedNodeID1, ConnectedNodeID2, ... (e.g., 2 2 1 13: the first node id is 2, it is connected to two nodes, the first connected node id is 1, and the second connected node id is 13)
+Line 4-25: the remaining 22 rows
+Line 26: Row#, GraphLabel (i.e., the second graph instance row number and label)
+Line 26-END: so forth...
