@@ -1,0 +1,5 @@
+Data Organization
+
+Line 1: # Graph Instances (e.g., 188, there will be 188 graph instances in this dataset)
+Line 2: Row#, GraphLabel (e.g., 23, 2, the first graph has 23 following rows, and its label is 2)
+Line 3: NodeID, FollowingNode#, FollowingNodeID1, FollowingNodeID2, ...
