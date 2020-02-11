@@ -5,7 +5,8 @@
 ### Paper URL
 
 The preprint of the paper is realsed at our IFM Lab group homepage, which can be accessed via the following link<br>
-Paper IFMLab URL: http://www.ifmlab.org/files/paper/segmented_graph_bert.pdf
+Paper IFMLab URL: http://www.ifmlab.org/files/paper/segmented_graph_bert.pdf  <br>
+Paper arXiv URL: https://arxiv.org/abs/2002.03283
 
 ### Reference Paper
 
