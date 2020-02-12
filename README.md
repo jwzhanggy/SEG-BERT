@@ -8,6 +8,11 @@ The preprint of the paper is realsed at our IFM Lab group homepage, which can be
 Paper IFMLab URL: http://www.ifmlab.org/files/paper/segmented_graph_bert.pdf  <br>
 Paper arXiv URL: https://arxiv.org/abs/2002.03283
 
+### Graph-Bert Paper List
+
+A list of the latest research papers on graph-bert can be found via the following link<br>
+Page URL: https://github.com/jwzhanggy/graph_bert_work
+
 ### Reference Paper
 
 This is a follow-up work of "Graph-Bert: Only Attention is Needed for Learning Graph Representations".<br>
