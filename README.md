@@ -24,3 +24,11 @@ Page URL: https://github.com/jwzhanggy/graph_bert_work
 More datasets can be downloaded via the following link, after unzip it, paste them to the data folder.<br>
 https://drive.google.com/file/d/1PgTsLo_zubAFx6zwx5yQakLQcVCEKuQF/view?usp=sharing
 
+### Reference
+@article{zhang2020segmented,<br>
+  title={Segmented Graph-Bert for Graph Instance Modeling},<br>
+  author={Zhang, Jiawei},<br>
+  journal={arXiv preprint arXiv:2002.03283},<br>
+  year={2020}<br>
+}
+
