@@ -25,10 +25,12 @@ More datasets can be downloaded via the following link, after unzip it, paste th
 https://drive.google.com/file/d/1PgTsLo_zubAFx6zwx5yQakLQcVCEKuQF/view?usp=sharing
 
 ### Reference
-@article{zhang2020segmented,<br>
-  title={Segmented Graph-Bert for Graph Instance Modeling},<br>
-  author={Zhang, Jiawei},<br>
-  journal={arXiv preprint arXiv:2002.03283},<br>
-  year={2020}<br>
+```
+@article{zhang2020segmented,
+  title={Segmented Graph-Bert for Graph Instance Modeling},
+  author={Zhang, Jiawei},
+  journal={arXiv preprint arXiv:2002.03283},
+  year={2020}
 }
+```
 
