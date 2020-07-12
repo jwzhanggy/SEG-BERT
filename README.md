@@ -20,6 +20,11 @@ Reference Github URL: https://github.com/jwzhanggy/Graph-Bert  <br>
 A list of the latest research papers on graph-bert can be found via the following link<br>
 Page URL: https://github.com/jwzhanggy/graph_bert_work
 
+### Graph Neural Networks from IFM Lab
+
+The latest graph neural network models proposed by IFM Lab can be found via the following link<br>
+IFM Lab GNNs: https://github.com/jwzhanggy/IFMLab_GNN
+
 ### More Datasets
 More datasets can be downloaded via the following link, after unzip it, paste them to the data folder.<br>
 https://drive.google.com/file/d/1PgTsLo_zubAFx6zwx5yQakLQcVCEKuQF/view?usp=sharing
