@@ -1,14 +1,17 @@
-# SEG-BERT
+# SEG-BERT (Segmented GRAPH-BERT)
 
 ![Segmented Graph Bert Model Architecture](./result/framework.png)
 
-## Source code of "Segmented GRAPH-BERT for Graph Instance Modeling"
+## Source code of "Segmented GRAPH-BERT Model"
 
 ### Paper URL
 
-The preprint of the paper is realsed at our IFM Lab group homepage, which can be accessed via the following link<br>
-Paper IFMLab URL: http://www.ifmlab.org/files/paper/segmented_graph_bert.pdf  <br>
-Paper arXiv URL: https://arxiv.org/abs/2002.03283
+The preprints of papers using SEG-BERT on graph classification and graph distance metric learning can be accessed via the following links<br>
+Paper 1 IFM Lab URL: http://www.ifmlab.org/files/paper/segmented_graph_bert.pdf  <br>
+Paper 2 IFM Lab URL: http://www.ifmlab.org/files/paper/graph_bert_neural_distance.pdf <br>
+
+Paper 1 arXiv URL: https://arxiv.org/abs/2002.03283 <br>
+Paper 2 arXiv URL: https://arxiv.org/abs/2002.03427 <br>
 
 ### Reference Paper
 
@@ -38,6 +41,14 @@ https://drive.google.com/file/d/1PgTsLo_zubAFx6zwx5yQakLQcVCEKuQF/view?usp=shari
   author={Zhang, Jiawei},
   journal={arXiv preprint arXiv:2002.03283},
   year={2020}
+}
+
+@article{Zhang2020GraphND,
+  title={Graph Neural Distance Metric Learning with Graph-Bert},
+  author={Jiawei Zhang},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2002.03427}
 }
 ```
 
