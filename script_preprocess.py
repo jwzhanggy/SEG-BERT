@@ -13,7 +13,7 @@ from code.Settings import Settings
 #----  REDDITBINARY, REDDITMULTI5K ----
 
 seed = 0
-dataset_name = 'PTC'
+dataset_name = 'MUTAG'
 strategy = 'isolated_segment'
 
 np.random.seed(seed)
@@ -127,7 +127,7 @@ if 1:
     method_obj.max_graph_size = max_graph_size
 
     result_obj = ResultSaving()
-    result_obj.result_destination_folder_path = './result/Padding/'
+    result_obj.result_destination_folder_path = './result/Padding/' + strategy + '/'
     result_obj.result_destination_file_name = dataset_name
 
     setting_obj = Settings()

@@ -1,6 +1,6 @@
 from code.DatasetLoader import DatasetLoader
 from code.MethodBertComp import GraphBertConfig
-from code.MethodGraphBertGraphClassification import MethodGraphBertNodeClassification
+from code.MethodGraphBertGraphClassification import MethodGraphBertGraphClassification
 from code.ResultSaving import ResultSaving
 from code.Settings import Settings
 import numpy as np
@@ -69,12 +69,12 @@ if 1:
         print('GrapBert, dataset: ' + dataset_name + ', residual: ' + residual_type + ', k: ' + str(k) + ', hidden dimension: ' + str(hidden_size) +', hidden layer: ' + str(num_hidden_layers) + ', attention head: ' + str(num_attention_heads))
         # ---- objection initialization setction ---------------
         data_obj = DatasetLoader()
-        data_obj.dataset_source_folder_path = './result/Padding/'
+        data_obj.dataset_source_folder_path = './result/Padding/' + strategy + '/'
         data_obj.dataset_source_file_name = dataset_name
         data_obj.k = k
 
         bert_config = GraphBertConfig(residual_type = residual_type, k=k, x_size=nfeature, y_size=y_size, hidden_size=hidden_size, intermediate_size=intermediate_size, num_attention_heads=num_attention_heads, num_hidden_layers=num_hidden_layers)
-        method_obj = MethodGraphBertNodeClassification(bert_config)
+        method_obj = MethodGraphBertGraphClassification(bert_config)
         #---- set to false to run faster ----
         method_obj.spy_tag = True
         method_obj.max_epoch = max_epoch

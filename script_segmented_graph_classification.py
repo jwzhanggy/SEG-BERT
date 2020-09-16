@@ -10,7 +10,7 @@ import torch
 #---- IMDBBINARY, IMDBMULTI, MUTAG, NCI1, PTC,  PROTEINS,   COLLAB, REDDITBINARY, REDDITMULTI5K ----
 
 seed = 0
-dataset_name = 'PTC'
+dataset_name = 'MUTAG'
 strategy = 'isolated_segment'
 
 np.random.seed(seed)
@@ -67,7 +67,7 @@ if 1:
         print('GrapBert, dataset: ' + dataset_name + ', residual: ' + residual_type + ', k: ' + str(k) + ', hidden dimension: ' + str(hidden_size) +', hidden layer: ' + str(num_hidden_layers) + ', attention head: ' + str(num_attention_heads))
         # ---- objection initialization setction ---------------
         data_obj = DatasetLoader()
-        data_obj.dataset_source_folder_path = './result/Padding/'
+        data_obj.dataset_source_folder_path = './result/Padding/' + strategy + '/'
         data_obj.dataset_source_file_name = dataset_name
         data_obj.k = k
 
