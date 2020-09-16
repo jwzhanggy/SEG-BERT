@@ -13,7 +13,7 @@ from code.EvaluateAcc import EvaluateAcc
 
 BertLayerNorm = torch.nn.LayerNorm
 
-class MethodGraphBertNodeClassification(BertPreTrainedModel):
+class MethodGraphBertGraphClassification(BertPreTrainedModel):
     learning_record_dict = {}
     lr = 0.001
     weight_decay = 5e-4
@@ -26,7 +26,7 @@ class MethodGraphBertNodeClassification(BertPreTrainedModel):
     save_pretrained_path = ''
 
     def __init__(self, config):
-        super(MethodGraphBertNodeClassification, self).__init__(config)
+        super(MethodGraphBertGraphClassification, self).__init__(config)
         self.config = config
         self.bert = MethodGraphBert(config)
         self.res_h = torch.nn.Linear(config.x_size**2, config.hidden_size)
